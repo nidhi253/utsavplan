@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>UtsavPlan PRD</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 860px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.55; font-size: 15px; }
+  h1 { font-size: 28px; margin-bottom: 2px; }
+  h2 { font-size: 20px; margin-top: 36px; border-bottom: 1px solid #ccc; padding-bottom: 4px; }
+  h3 { font-size: 16px; margin-top: 22px; }
+  p.sub { color: #555; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; vertical-align: top; font-size: 14px; }
+  th { background: #eee; }
+  .box { background: #f6f3ee; border-left: 4px solid #7A1F3D; padding: 10px 14px; margin: 14px 0; }
+  ul, ol { margin-top: 6px; }
+</style>
+</head>
+<body>
+
+<h1>UtsavPlan: Product Requirements Document</h1>
+<p class="sub">Working name. Event planning and coordination for Indian family functions. Draft for the buildathon.</p>
+
+<div class="box"><b>Pitch line:</b> "They help you find vendors. We help you pull off the event."</div>
+
+<h2>1. Summary</h2>
+<p>UtsavPlan helps families plan and run any function: weddings, and also haldi, mehendi, engagements, birthdays, naming ceremonies and housewarmings. It combines three things in one app:</p>
+<ol>
+  <li><b>Discovery.</b> Find and book vendors, especially independent artists (mehendi artists, freelance photographers, home caterers, decorators) who today exist mostly on Instagram, WhatsApp and word of mouth.</li>
+  <li><b>Coordination.</b> After booking, one shared event plan for the whole family: tasks, vendors, payments made and pending, things to buy, and a day-of timeline.</li>
+  <li><b>Trust.</b> Reviews and proof of work come only from real, completed bookings.</li>
+</ol>
+
+<h2>2. Problem</h2>
+<p>Planning a function today means:</p>
+<ul>
+  <li>Finding vendors through calls, Instagram and word of mouth, with no reliable way to judge quality.</li>
+  <li>Scattered WhatsApp groups where decisions, prices and timings get lost.</li>
+  <li>Cash advances and no record of who has been paid, how much, and what is still pending.</li>
+  <li>No single place to see who is doing what and when, so family members keep asking the same questions.</li>
+  <li>Independent artists are hard to discover and hard to trust, so families fall back on the few people they already know.</li>
+</ul>
+
+<h2>3. Target users</h2>
+<table>
+  <tr><th>User</th><th>Who they are</th><th>What they need</th></tr>
+  <tr><td><b>Family organiser</b> (primary)</td><td>The person who ends up running the function, often with a full-time job and a large family</td><td>Know what is needed, find trustworthy vendors within budget, and keep everyone aligned</td></tr>
+  <tr><td><b>Family member</b></td><td>Parents, siblings, cousins who help or just want updates</td><td>See the plan and status without asking, no login or app install</td></tr>
+  <tr><td><b>Independent artist</b></td><td>Freelance mehendi artist, photographer, home caterer, decorator, DJ, makeup artist</td><td>Get discovered beyond Instagram, show their work, receive clear booking requests, build a reputation</td></tr>
+</table>
+
+<h2>4. Goals and non-goals</h2>
+<h3>Goals</h3>
+<ul>
+  <li>Let a family go from "we are planning a haldi" to a confirmed, tracked plan in one sitting.</li>
+  <li>Make independent artists discoverable by showing their work, not just a name and a number.</li>
+  <li>Give the whole family one live view of the plan.</li>
+  <li>Earn trust through verified bookings.</li>
+  <li>Cover small functions, so users come back several times a year and not once for a wedding.</li>
+</ul>
+<h3>Non-goals (for the MVP)</h3>
+<ul>
+  <li>Real online payments, contracts, or cancellation handling.</li>
+  <li>In-app chat (link out to WhatsApp instead).</li>
+  <li>Maps, location tracking, native mobile apps.</li>
+  <li>Vendor self-signup (the MVP uses seeded vendors).</li>
+</ul>
+<h3>Success measures</h3>
+<table>
+  <tr><th>Stage</th><th>What we look at</th></tr>
+  <tr><td>Buildathon demo</td><td>The live flow works on stage: plan an event, book an artist, artist confirms, family view updates within a few seconds</td></tr>
+  <tr><td>Early product</td><td>Events created, bookings requested and confirmed, share of confirmed bookings that become completed, repeat events per family, artists with 5+ verified bookings</td></tr>
+</table>
+
+<h2>5. How we are different</h2>
+<p>Existing wedding apps such as WeddingBazaar and WedMeGood are mainly vendor directories. They help you find vendors and earn mostly from leads and sponsored listings. Instagram and WhatsApp are where independent artists actually live, but they offer no booking, tracking or trust layer.</p>
+<table>
+  <tr><th></th><th>Wedding directories</th><th>Instagram + WhatsApp</th><th><b>UtsavPlan</b></th></tr>
+  <tr><td>Core job</td><td>Find vendors</td><td>Chat and share photos</td><td><b>Find vendors and run the event</b></td></tr>
+  <tr><td>Event types</td><td>Mostly weddings</td><td>Any, but unstructured</td><td><b>Weddings and small functions</b> (more frequent, so repeat use)</td></tr>
+  <tr><td>Independent artists</td><td>Often missed or buried under paid listings</td><td>Present, hard to compare</td><td><b>First-class, with a work gallery</b></td></tr>
+  <tr><td>After booking</td><td>Little or nothing</td><td>Messages scatter</td><td><b>Shared plan: tasks, vendors, payments, shopping, timeline</b></td></tr>
+  <tr><td>Family visibility</td><td>None</td><td>Group chat noise</td><td><b>One live link, no login</b></td></tr>
+  <tr><td>Trust</td><td>Reviews can be unverified or promoted</td><td>Word of mouth only</td><td><b>Verified-booking reviews only</b></td></tr>
+  <tr><td>Revenue logic</td><td>Leads, sponsored listings</td><td>None</td><td>Booking-based, so we earn when events happen (to be validated)</td></tr>
+</table>
+<p><b>Why it can win:</b> directories stop at "found a vendor". We start there and own the rest of the journey, which creates a reason to come back and data (completed bookings) that makes trust real.</p>
+
+<h2>6. Product pillars</h2>
+<table>
+  <tr><th>Pillar</th><th>What it means</th></tr>
+  <tr><td>Discovery</td><td>A searchable, filterable vendor directory. Every vendor shows their actual work.</td></tr>
+  <tr><td>Coordination</td><td>One shared event plan the whole family can see, updated live.</td></tr>
+  <tr><td>Trust</td><td>Reviews and proof only from verified, completed bookings.</td></tr>
+</table>
+
+<h2>7. Features and phasing</h2>
+<h3>7.1 MVP (committed)</h3>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Area</th></tr>
+  <tr><td>1</td><td>Home with two entry points: Plan an event, Browse vendors</td><td>Core</td></tr>
+  <tr><td>2</td><td>Navigation: Home, Plan, Vendors, My events (shortlist from the top bar)</td><td>Core</td></tr>
+  <tr><td>3</td><td>Plan Setup: event type(s), date, city, guests, budget</td><td>Planning</td></tr>
+  <tr><td>4</td><td>Rule-based recommended list: vendors needed, tasks, things to buy</td><td>Planning</td></tr>
+  <tr><td>5</td><td>Edit the list: tick, untick, add custom items</td><td>Planning</td></tr>
+  <tr><td>6</td><td>Shopping list with quantity and bought status</td><td>Planning</td></tr>
+  <tr><td>7</td><td>Vendor directory with search</td><td>Discovery</td></tr>
+  <tr><td>8</td><td>Filters in a side drawer: category, event type, city, price, rating, availability; sort by price or rating</td><td>Discovery</td></tr>
+  <tr><td>9</td><td>Vendor profile: services and prices specific to the vendor's category</td><td>Discovery</td></tr>
+  <tr><td>10</td><td>Work gallery on each profile, and a "View work" preview on every vendor card</td><td>Discovery</td></tr>
+  <tr><td>11</td><td>Save or shortlist vendors</td><td>Discovery</td></tr>
+  <tr><td>12</td><td>Request booking, attached to an event</td><td>Booking</td></tr>
+  <tr><td>13</td><td>Booking statuses: Requested, Confirmed, Declined, Completed</td><td>Booking</td></tr>
+  <tr><td>14</td><td>Artist confirm and decline page</td><td>Booking</td></tr>
+  <tr><td>15</td><td>Shared event plan: tasks, vendors, payments (manual paid and pending), shopping</td><td>Coordination</td></tr>
+  <tr><td>16</td><td>Share link for family, read-only, no login</td><td>Coordination</td></tr>
+  <tr><td>17</td><td>Live updates (the family view refreshes every 2 seconds)</td><td>Coordination</td></tr>
+  <tr><td>18</td><td>Seeded data: 12 vendors across 6 categories and 3 cities, work photos, event templates</td><td>Data</td></tr>
+</table>
+<h3>7.2 MVP stretch (only if time remains, in this order)</h3>
+<table>
+  <tr><th>Order</th><th>Feature</th></tr>
+  <tr><td>1</td><td>Day-of timeline: time-ordered view of arrivals and ceremonies with statuses</td></tr>
+  <tr><td>2</td><td>Verified-booking reviews: the review form appears only after a booking is marked Completed</td></tr>
+  <tr><td>3</td><td>Shopping cost estimates</td></tr>
+</table>
+<h3>7.3 Under consideration (proposed upgrades, to be decided)</h3>
+<table>
+  <tr><th>Feature</th><th>Why it matters</th></tr>
+  <tr><td>Budget split by category, with a live "amount left" as you book</td><td>Turns the budget from a number into a planning tool</td></tr>
+  <tr><td>Quote requests: the artist replies with a price and inclusions, the family accepts</td><td>Replaces WhatsApp price negotiation</td></tr>
+  <tr><td>Verified-event tags on work photos</td><td>Proof of work that no directory has</td></tr>
+  <tr><td>Task assignment to family members, and a "what is blocking us" summary</td><td>Makes the shared plan active, not just visible</td></tr>
+  <tr><td>Live vendor status on the day ("on my way")</td><td>The clearest "pull off the event" moment</td></tr>
+  <tr><td>"Best match" sort based on event type, city, budget and date</td><td>Less scrolling for the organiser</td></tr>
+</table>
+<h3>7.4 Later</h3>
+<table>
+  <tr><th>Area</th><th>Feature</th></tr>
+  <tr><td>Planning</td><td>AI "plan my event" from one sentence (fills the same fields and lists as the manual flow); guest list and RSVPs; invitation creation</td></tr>
+  <tr><td>Discovery</td><td>Real availability by date; compare vendors; map and distance search; vendor self-signup including uploading their own work; video or reels; inspiration boards</td></tr>
+  <tr><td>Booking</td><td>Real online payments; contracts and cancellation policies</td></tr>
+  <tr><td>Coordination</td><td>Family accounts and roles; WhatsApp and push notifications; in-app chat</td></tr>
+  <tr><td>Day-of</td><td>Location tracking</td></tr>
+  <tr><td>Trust</td><td>Vendor verification badges; photos in reviews; dispute handling</td></tr>
+  <tr><td>Platform</td><td>Real login and accounts; multi-city and multi-language; native mobile app</td></tr>
+</table>
+
+<h2>8. Key user flows</h2>
+<h3>Flow A: Plan an event</h3>
+<ol>
+  <li>User taps "Plan an event" and picks one or more event types, date, city, guests and budget.</li>
+  <li>The app creates the event and a recommended list: vendors needed, tasks, and things to buy.</li>
+  <li>User edits the list: ticks or unticks items, adds their own.</li>
+  <li>For each needed vendor category, "Find artists" opens the directory pre-filtered to that category.</li>
+</ol>
+<h3>Flow B: Find and book a vendor</h3>
+<ol>
+  <li>User searches or filters in the directory and previews work with "View work".</li>
+  <li>User opens a profile, sees the work gallery, services and prices, and shortlists or requests a booking.</li>
+  <li>The request attaches to one of the user's events (or prompts them to create one first).</li>
+  <li>The booking appears on the event as Requested.</li>
+</ol>
+<h3>Flow C: Artist confirms, family sees it</h3>
+<ol>
+  <li>The artist opens their booking link and taps Confirm or Decline.</li>
+  <li>The status changes on the event plan and on the family view within about 2 seconds.</li>
+</ol>
+<h3>Flow D: Run the event</h3>
+<ol>
+  <li>The organiser shares one link with the family (read-only, no login).</li>
+  <li>Family tracks tasks, vendors, payments and shopping. The organiser marks payments paid and bookings Completed.</li>
+  <li>(Stretch) Day-of timeline shows arrivals and ceremony times; completed bookings unlock reviews.</li>
+</ol>
+
+<h2>9. Functional requirements (MVP)</h2>
+<table>
+  <tr><th>Area</th><th>Requirement</th></tr>
+  <tr><td>Plan Setup</td><td>User can select multiple event types. Creating an event generates needs, tasks and shopping items from templates merged across the selected types.</td></tr>
+  <tr><td>Event plan</td><td>Owner can tick, untick and add tasks and shopping items, change quantities, add payments, and mark payments paid. Changes persist and appear on the family view.</td></tr>
+  <tr><td>Directory</td><td>Text search by name. Filters combine with AND across groups and OR within a group. Result count and removable filter chips are shown. Sorting is available in the drawer.</td></tr>
+  <tr><td>Vendor profile</td><td>Each vendor belongs to one category. Work photos and services match that category. Services show prices derived from the vendor's starting price.</td></tr>
+  <tr><td>Booking</td><td>A request needs an event. Requesting the same vendor twice for one event returns the existing booking. Statuses: Requested, Confirmed, Declined, Completed.</td></tr>
+  <tr><td>Artist page</td><td>Shows the event type, date, city, guests and note. Confirm or Decline is allowed while the booking is Requested; the decision is then displayed.</td></tr>
+  <tr><td>Family view</td><td>Read-only. Reachable by link without login. Refreshes every 2 seconds.</td></tr>
+  <tr><td>Shortlist</td><td>Save and remove vendors from cards and profiles. A shortlist page lists them. Stored on the user's device.</td></tr>
+</table>
+
+<h2>10. Data model (MVP)</h2>
+<table>
+  <tr><th>Entity</th><th>Key fields</th></tr>
+  <tr><td>Vendor (seeded)</td><td>id, name, category, city, starting price, rating, event types served, availability flag, about</td></tr>
+  <tr><td>Event</td><td>id, event types, date, city, guests, budget, needed categories, tasks, shopping items, payments</td></tr>
+  <tr><td>Booking</td><td>id, event id, vendor id, status, note, date</td></tr>
+  <tr><td>Task</td><td>text, timing, done</td></tr>
+  <tr><td>Shopping item</td><td>text, quantity, bought</td></tr>
+  <tr><td>Payment</td><td>label, amount, paid</td></tr>
+</table>
+<p>Anyone with an event's link can view it; only the creating device edits it in the MVP. There are no accounts yet.</p>
+
+<h2>11. Technical approach</h2>
+<table>
+  <tr><th>Item</th><th>Choice</th></tr>
+  <tr><td>App</td><td>Next.js, mobile-first web app</td></tr>
+  <tr><td>Storage</td><td>JSON file store on the server (no external accounts or keys)</td></tr>
+  <tr><td>Live updates</td><td>Polling every 2 seconds</td></tr>
+  <tr><td>API</td><td>Next.js route handlers for events and bookings</td></tr>
+  <tr><td>Images</td><td>Local placeholder photos (from Wikimedia Commons, for the demo only)</td></tr>
+  <tr><td>Later</td><td>A hosted database with realtime (for example Supabase) and real authentication; the Claude API for the "plan my event" feature</td></tr>
+</table>
+
+<h2>12. Design principles</h2>
+<ul>
+  <li>Mobile first. Families open the share link on their phones.</li>
+  <li>Minimal and warm: off-white background, charcoal text, one deep maroon accent, thin line icons, and real photos carrying the color.</li>
+  <li>Filters live in a side drawer so the vendor list stays clean.</li>
+  <li>Work is visible before any booking decision.</li>
+</ul>
+
+<h2>13. Demo and pitch outline</h2>
+<ol>
+  <li><b>Story.</b> Open with a relatable chaotic family function: WhatsApp groups, cash advances, nobody sure who is coming when.</li>
+  <li><b>Live demo.</b> Plan a haldi, get the list, browse artists and preview their work, book one. On a second phone the artist confirms, and the family view updates live.</li>
+  <li><b>Differentiation slide.</b> "They help you find vendors. We help you pull off the event."</li>
+  <li><b>Growth story.</b> See section 14.</li>
+</ol>
+
+<h2>14. Growth plan</h2>
+<ol>
+  <li>Start with small functions and independent artists in one city.</li>
+  <li>Add more event types and categories, and open vendor self-signup.</li>
+  <li>Expand to more cities and languages; add payments and AI planning.</li>
+</ol>
+<p>Why small functions first: they happen several times a year per family, so retention is natural, and independent artists have the most to gain from being discoverable.</p>
+
+<h2>15. Risks and open questions</h2>
+<table>
+  <tr><th>Risk or question</th><th>Notes</th></tr>
+  <tr><td>Supply: getting independent artists onboarded</td><td>Start with a curated set in one city; make the artist side as light as one confirm link.</td></tr>
+  <tr><td>Off-platform bookings</td><td>Artists and families may take bookings back to WhatsApp. Value after booking (plan, tracking, trust) is the reason to stay.</td></tr>
+  <tr><td>Business model</td><td>Not decided. Candidates: a booking fee, artist subscriptions, or premium planning tools. Not tied to sponsored listings.</td></tr>
+  <tr><td>Cold-start trust</td><td>Reviews need completed bookings. Early vendors will have few; seed with onboarding data and be transparent.</td></tr>
+  <tr><td>Image and data rights</td><td>Demo photos are placeholders. Real artists must grant rights to their work.</td></tr>
+  <tr><td>Quote vs. fixed price</td><td>Decide whether the MVP-plus keeps fixed "from" prices or moves to quotes.</td></tr>
+  <tr><td>Which proposed upgrades go in next</td><td>Section 7.3 needs a decision.</td></tr>
+</table>
+
+<h2>16. Current build status</h2>
+<table>
+  <tr><th>Item</th><th>Status</th></tr>
+  <tr><td>Clickable mockup (<code>mockup.html</code>)</td><td>Done</td></tr>
+  <tr><td>Working app: MVP features 1 to 18 above</td><td>Built and tested through the API flow (create event, request booking, artist confirm, family view reflects it). Not yet fully tested by hand in the browser.</td></tr>
+  <tr><td>Stretch: day-of timeline, verified reviews, shopping cost estimates</td><td>Not built (the Reviews tab is a placeholder)</td></tr>
+  <tr><td>Proposed upgrades in 7.3</td><td>Not started; pending a decision</td></tr>
+</table>
+
+</body>
+</html>

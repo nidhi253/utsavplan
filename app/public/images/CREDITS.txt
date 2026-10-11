@@ -1,0 +1,37 @@
+Photos from Wikimedia Commons, used as mockup placeholders only. Check each license before any public use.
+mehendi/1.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Bridal_Mehndi.JPG
+mehendi/2.jpg | CC0 | https://commons.wikimedia.org/wiki/File:Brides_hand_full_of_Mehendi.jpg
+mehendi/3.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Henna_ceremony_at_wedding_02.jpg
+mehendi/4.jpg | CC0 | https://commons.wikimedia.org/wiki/File:InaiNevesta.jpg
+mehendi/5.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Folk_Mehndi_Ceremony_(3).jpg
+mehendi/6.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Folk_Mehndi_Ceremony_(4).jpg
+photographer/1.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Culture_Wedding_(5)_01.jpg
+photographer/2.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Traditional_Wedding_Images_(40).jpg
+photographer/3.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Indian_Wedding_Ceremony_(591).jpg
+photographer/4.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Indian_Wedding_Ceremony_(599).jpg
+photographer/5.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Indian_Wedding_Ceremony_(607).jpg
+photographer/6.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Indian_Wedding_Ceremony_(610).jpg
+decorator/1.jpg | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:African_Marigold_(357096604).jpg
+decorator/2.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DFC_1201_A_floral-adorned_shrine_overlooking_the_waterfront_at_dusk_with_the_lights_of_Pattaya_reflecting_on_the_bay.jpg
+decorator/3.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DFC_1671_Colorful_floral_garlands_and_ribbons_hanging_for_sale_at_a_bustling_market_stall_ready_for_offerings_and_celebrations.jpg
+decorator/4.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DFC_1685_Night_market_stall_lit_by_neon_with_yellow_marigold_garlands_hanging_above_bottled_drinks_and_three_vendors_chatting_and_checking_phones.jpg
+decorator/5.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:DFC_1762_A_vendor_carefully_strings_fresh_flower_garlands_at_her_colorful_market_stall_surrounded_by_piles_of_jasmine_and_marigold_blossoms.jpg
+decorator/6.jpg | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Floral_welcome_decoration_at_Vaishno_Devi_Temple_Katra.jpg
+caterer/1.jpg | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:%271%27_Thali_Indian_Food.jpg
+caterer/2.jpg | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:Darjeeling,_India,_Indian_Thali_meal.jpg
+caterer/3.jpg | CC0 | https://commons.wikimedia.org/wiki/File:Homemade_Thali,_Maharashtrian_Thali.jpg
+caterer/4.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Mixed_Thali_Barcelona_Special.jpg
+caterer/5.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Thali_01.jpg
+caterer/6.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Indian_Thali_2.jpg
+dj/1.jpg | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Bob_Beaman_Nightclub_-_DJ_Booth.jpg
+dj/2.jpg | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:DJ_booth_with_DJ-Mixer,_two_turntables_and_two_CDJ-players_in_former_Bob_Beaman_nightclub_in_Munich.jpg
+dj/3.jpg | CC0 | https://commons.wikimedia.org/wiki/File:DJ_booth_with_NI_Traktor_Kontrol_S4_(2015-03-13_17.33.34_by_nikkolodeon_@pixabay_688549).jpg
+dj/4.jpg | CC BY-SA 2.5 | https://commons.wikimedia.org/wiki/File:Romina_Cohn_@_Sobremonte_(Mar_del_Plata,_Argentina)_Photo_by_dj_Lucho_Randazzo_(cropped).JPG
+dj/5.jpg | CC BY 2.0 | https://commons.wikimedia.org/wiki/File:Technics_CDJ_-_Private_DJ_Booth.jpg
+dj/6.jpg | CC BY-SA 2.0 | https://commons.wikimedia.org/wiki/File:Tresor_Nightclub_Berlin_DJ_10.jpg
+makeup/1.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Bridal_makeup_for_Indian_Wedding.jpg
+makeup/2.jpg | CC BY-SA 3.0 | https://commons.wikimedia.org/wiki/File:Indian_bride_wearing_north_indian_bridal_wear.jpg
+makeup/3.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Minimalistic_Magic_With_Indian_Bridal_Makeup.jpg
+makeup/4.jpg | CC0 | https://commons.wikimedia.org/wiki/File:Transformation_Of_Beautiful_Bride_Puja_(254605415).jpeg
+makeup/5.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Hd_bridal_makeup_look_at_patna.jpg
+makeup/6.jpg | CC BY-SA 4.0 | https://commons.wikimedia.org/wiki/File:Meribindiya_Bridal_Makeup.jpg

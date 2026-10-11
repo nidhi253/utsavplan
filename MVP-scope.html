@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Event Planning App: MVP Scope</title>
+<style>
+  body { font-family: Arial, sans-serif; max-width: 860px; margin: 32px auto; padding: 0 16px; color: #222; line-height: 1.5; }
+  h1 { font-size: 24px; margin-bottom: 4px; }
+  h2 { font-size: 18px; margin-top: 28px; }
+  p.sub { color: #555; margin-top: 0; }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; }
+  th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; vertical-align: top; font-size: 14px; }
+  th { background: #eee; }
+</style>
+</head>
+<body>
+
+<h1>Event Planning App: MVP Scope</h1>
+<p class="sub">Pitch line: "They help you find vendors. We help you pull off the event."</p>
+
+<h2>1. Overview</h2>
+<p>A marketplace plus planning tool for family functions (wedding, haldi, mehendi, engagement, birthday, naming ceremony, housewarming). Users can plan an event, discover independent vendors by seeing their work, book them, and coordinate everything in one shared plan.</p>
+
+<h2>2. Demo story</h2>
+<p>A family enters their event details, gets a recommended list of vendors, tasks and things to buy, browses vendors by their work, books an artist, and watches the shared family plan update live when the artist confirms.</p>
+
+<h2>3. Build now (MVP)</h2>
+<table>
+  <tr><th>#</th><th>Feature</th><th>Area</th></tr>
+  <tr><td>1</td><td>Home with two entry points: Plan an event and Browse vendors</td><td>Core</td></tr>
+  <tr><td>2</td><td>Top navigation: Home, Plan an event, Find vendors, Explore work, My events</td><td>Core</td></tr>
+  <tr><td>3</td><td>Plan Setup: event type(s), date(s), city, guests, budget</td><td>Planning</td></tr>
+  <tr><td>4</td><td>Rule-based recommended list: vendors needed, tasks, things to buy</td><td>Planning</td></tr>
+  <tr><td>5</td><td>Edit the list: tick, untick, add custom items</td><td>Planning</td></tr>
+  <tr><td>6</td><td>Shopping list with quantity and bought status</td><td>Planning</td></tr>
+  <tr><td>7</td><td>Vendor directory with search</td><td>Discovery</td></tr>
+  <tr><td>8</td><td>Filters: category, city, price, rating</td><td>Discovery</td></tr>
+  <tr><td>9</td><td>Vendor profile: services, prices</td><td>Discovery</td></tr>
+  <tr><td>10</td><td>Portfolio gallery on each profile</td><td>Discovery</td></tr>
+  <tr><td>11</td><td>Explore work: photo grid across vendors, linking to the profile</td><td>Discovery</td></tr>
+  <tr><td>12</td><td>Save or shortlist vendors (a "My shortlist" page, and add a shortlisted vendor to an event)</td><td>Discovery</td></tr>
+  <tr><td>13</td><td>Request booking, attached to an event</td><td>Booking</td></tr>
+  <tr><td>14</td><td>Booking statuses: Requested, Confirmed, Declined, Completed</td><td>Booking</td></tr>
+  <tr><td>15</td><td>Artist confirm and decline page</td><td>Booking</td></tr>
+  <tr><td>16</td><td>Shared family plan: tasks, vendors, payments (manual paid/pending), shopping</td><td>Coordination</td></tr>
+  <tr><td>17</td><td>Share link for family, no login</td><td>Coordination</td></tr>
+  <tr><td>18</td><td>Live updates by polling</td><td>Coordination</td></tr>
+  <tr><td>19</td><td>Seeded data: about 15 vendors, work photos, event templates</td><td>Data</td></tr>
+</table>
+
+<h2>4. MVP stretch (only if time remains, in this order)</h2>
+<table>
+  <tr><th>Order</th><th>Feature</th><th>Area</th></tr>
+  <tr><td>1</td><td>Day-of timeline</td><td>Day-of</td></tr>
+  <tr><td>2</td><td>Verified-booking reviews</td><td>Trust</td></tr>
+  <tr><td>3</td><td>Shopping cost estimates</td><td>Planning</td></tr>
+</table>
+
+<h2>5. Later</h2>
+<table>
+  <tr><th>Area</th><th>Feature</th></tr>
+  <tr><td rowspan="4">Planning</td><td>AI "plan my event" from one sentence</td></tr>
+  <tr><td>Budget split by category</td></tr>
+  <tr><td>Guest list and RSVPs</td></tr>
+  <tr><td>Invitation creation</td></tr>
+  <tr><td rowspan="6">Discovery</td><td>Availability by date</td></tr>
+  <tr><td>Compare vendors</td></tr>
+  <tr><td>Map view and distance search</td></tr>
+  <tr><td>Vendor self-signup, including uploading their own work</td></tr>
+  <tr><td>Video or reels</td></tr>
+  <tr><td>Save a photo to a plan as an inspiration board</td></tr>
+  <tr><td rowspan="3">Booking</td><td>Quotes and negotiation</td></tr>
+  <tr><td>Real online payments</td></tr>
+  <tr><td>Contracts and cancellation policies</td></tr>
+  <tr><td rowspan="4">Coordination</td><td>Task assignment to family members</td></tr>
+  <tr><td>Family accounts and roles</td></tr>
+  <tr><td>WhatsApp and push notifications</td></tr>
+  <tr><td>In-app chat</td></tr>
+  <tr><td rowspan="2">Day-of</td><td>Live vendor status such as "arriving"</td></tr>
+  <tr><td>Location tracking</td></tr>
+  <tr><td rowspan="4">Trust</td><td>Verified-event tags on work photos</td></tr>
+  <tr><td>Vendor verification badges</td></tr>
+  <tr><td>Photos in reviews</td></tr>
+  <tr><td>Dispute handling</td></tr>
+  <tr><td rowspan="3">Platform</td><td>Real login and accounts</td></tr>
+  <tr><td>Multi-city and multi-language</td></tr>
+  <tr><td>Native mobile app</td></tr>
+</table>
+
+<h2>6. Tech approach (MVP)</h2>
+<table>
+  <tr><th>Item</th><th>Choice</th></tr>
+  <tr><td>App</td><td>Next.js + Tailwind, mobile-first web app</td></tr>
+  <tr><td>Storage</td><td>JSON file store (no accounts or keys needed)</td></tr>
+  <tr><td>Live updates</td><td>Polling every 2 seconds</td></tr>
+  <tr><td>Data</td><td>Seeded vendors, work photos and event templates</td></tr>
+  <tr><td>Time available</td><td>1 to 1.5 hours</td></tr>
+</table>
+
+</body>
+</html>
