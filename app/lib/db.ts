@@ -1,9 +1,13 @@
 import fs from "fs";
+import os from "os";
 import path from "path";
 import type { Booking, EventPlan } from "./types";
 
 type DB = { events: EventPlan[]; bookings: Booking[] };
-const FILE = path.join(process.cwd(), "data", "db.json");
+// Vercel's filesystem is read-only except the temp dir. Data there is per-instance and is
+// lost on restart, which is fine for a demo but not for real use (swap in a hosted store).
+const DIR = process.env.VERCEL ? os.tmpdir() : path.join(process.cwd(), "data");
+const FILE = path.join(DIR, "db.json");
 
 function read(): DB {
   try {
